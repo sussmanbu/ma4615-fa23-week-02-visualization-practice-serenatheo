@@ -1,7 +1,7 @@
 ---
 title: "Week 02: COVID Visualization Activity"
 date: "September, 11 2023"
-author: "**`[[`**Your Name**`]]`**"
+author: "Serena Theobald"
 ---
 
 Today, we'll be working with a data set related to COVID.
@@ -34,8 +34,24 @@ covid_data_count |>
   filter(state == "MA") |> 
   ggplot(aes(x = date, y = Cases, color = race)) + geom_line()
 ```
+```{r}
+covid_data_count |> 
+  filter(state == "MA") |> 
+  ggplot(aes(x = date, y = Cases, color = race)) + geom_boxplot()
+```
 
 1. Write code for a plot and describe what you observe?
+
+The code filters the data to only include rows from Massachusetts, then creates a box plot visualization where the x-axis represents dates, the y-axis represents case counts, and different races are represented by different colors. This helps us understand the distribution of COVID-19 cases across different racial groups over time in Massachusetts.
+
 2. Are there any conclusions you can draw?
+
+Between October and January, there are wider box plots, which indicates a more varied number of cases. Between July and October, there are narrower box plots, which indicate more consistency in the number of cases reported.
+
 3. What were you not able to do due to not having the R knowledge?
+
+Because I don't have the R knowledge yet, creating advanced visualizations using packages like ggplot2 is a bit challenging. Although I created a boxplot, there are probably a lot of other types of plots and customization options that reveal more intricate details in the COVID data.
+
 4. What other data would be useful to better understand this data?
+
+To better understand the data in the context of COVID-19 cases in Massachusetts differentiated by race over time, it might be good to have vaccination data (vaccination rates and vaccine distribution), demographic data, socioeconomic data, and policy intervention data for that specific state.
