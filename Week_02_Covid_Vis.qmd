@@ -54,4 +54,4 @@ Because I don't have the R knowledge yet, creating advanced visualizations using
 
 4. What other data would be useful to better understand this data?
 
-To better understand the data in the context of COVID-19 cases in Massachusetts differentiated by race over time, it might be good to have vaccination data (vaccination rates and vaccine distribution), demographic data, socioeconomic data, and policy intervention data for that specific state.
+To better understand the data in the context of COVID-19 cases in Massachusetts differentiated by race over time, it might be good to have vaccination data (vaccination rates and vaccine distribution), demographic data, socioeconomic data, and policy intervention data for that specific state (MA)
